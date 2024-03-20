@@ -2,8 +2,7 @@
 Телеграм бот поднимающий настроение
 https://t.me/my_1_test_1_bot
 @my_1_test_1_bot
-
-'''
+```
 import telebot
 import requests
 from datetime import datetime
@@ -48,4 +47,4 @@ def wiki(message):
         bot.send_message(message.chat.id, "Я ничего не нашел")
 
 bot.polling()
-'''
+```
