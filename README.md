@@ -1,14 +1,17 @@
 # telegram_bot
 Телеграм бот поднимающий настроение
+
 https://t.me/my_1_test_1_bot
+
 @my_1_test_1_bot
+
 ```
 import telebot
 import requests
 from datetime import datetime
 
 # Подключение к боту в ТГ
-tg_api='6909377387:AAE-z7XCzU1d-yLv2JGx8Hmzzqs8SiZh538'
+tg_api='6909377387:AAE-z7XCzU1d-yLv2JGx8Hmzzqs********'
 bot=telebot.TeleBot(tg_api)
 
 # URL доступа к боту wiki
